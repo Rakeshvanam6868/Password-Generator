@@ -1,0 +1,91 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family: Arial;
+}
+
+body{
+  background-color: #fff;
+}
+
+.container{
+  padding:25px;
+  background-color: #24232b;
+  margin:30vh 10vh;
+}
+
+.heading{
+  color: white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:20px;
+  font-weight:700;
+}
+
+button{
+  padding:10px;
+  border-radius:5px;
+  border:none;
+  background-color:#2a8b8b;
+  cursor:pointer;
+  color:white;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.copyBtn{
+  height:30px;
+  font-size:10px;
+}
+
+.char{
+  display:flex;
+  flex-direction:column;
+  padding:20px 0px;
+  gap:10px;
+}
+
+span{
+  display:flex;
+  justify-content:space-between;
+  color:white;
+}
+
+.checkboxes{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:10px;
+  font-size:20px;
+  color:white;
+}
+
+.inputs{
+  display:flex;
+  gap:5px;
+}
+
+.errorMessage{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:red;
+  padding:20px 0px;
+}
+
+.generateBtn{
+  width:100%;
+  padding:15px;
+  font-size:15px;
+  margin:10px 0px;
+}
+
+.password-strength{
+  width: 100%;
+  display:flex;
+  justify-content:space-between;
+  margin:20px 0px;
+  color:white;
+}
